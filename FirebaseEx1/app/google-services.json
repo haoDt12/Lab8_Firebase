@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "237155355708",
+    "project_id": "fir-realtime-eec5f",
+    "storage_bucket": "fir-realtime-eec5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237155355708:android:7f328d431359c2cd524739",
+        "android_client_info": {
+          "package_name": "com.example.firebaseex1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237155355708-h4k2hci53rn1pn5s38b3ec0r6g8hbj2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmVrPn08_luijkprPOYXpY5nnOnTe3MGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237155355708-h4k2hci53rn1pn5s38b3ec0r6g8hbj2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237155355708:android:e6ca946625eba146524739",
+        "android_client_info": {
+          "package_name": "com.hao.duan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237155355708-2bu5qltssi7n9gri77450nlguba3nu9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hao.duan",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "237155355708-h4k2hci53rn1pn5s38b3ec0r6g8hbj2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmVrPn08_luijkprPOYXpY5nnOnTe3MGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237155355708-h4k2hci53rn1pn5s38b3ec0r6g8hbj2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
