@@ -20,6 +20,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -59,6 +61,9 @@ public class HomeFragment extends Fragment {
     private CustomListAdapter customListAdapter;
     private static ArrayList<Items> arrayListTodo = new ArrayList<>();
     private ArrayList<String> keysArray;
+    private Toolbar toolbar;
+
+
 
     public HomeFragment() {
         // Required empty public constructor
@@ -77,6 +82,11 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        Toolbar toolbar = rootView.findViewById(R.id.toolbar);
+        AppCompatActivity activity = (AppCompatActivity) getActivity();
+        if (activity != null) {
+            activity.setSupportActionBar(toolbar);
+        }
         setHasOptionsMenu(true);
         return rootView;
     }
