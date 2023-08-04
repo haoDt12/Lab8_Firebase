@@ -61,11 +61,11 @@ public class CustomListAdapter extends BaseAdapter {
         holder.txtTitle.setText(todoItem.getTitle());
         boolean isDone = todoItem.isDone();
         if (isDone) {
-            holder.imageViewDone.setImageResource(R.drawable.ic_launcher_background);
+            holder.imageViewDone.setImageResource(R.drawable.ic_done2);
             holder.txtTitle.setPaintFlags(holder.txtTitle.getPaintFlags()|
                     Paint.STRIKE_THRU_TEXT_FLAG);
         }else {
-            holder.imageViewDone.setImageResource(R.drawable.ic_launcher_foreground);
+            holder.imageViewDone.setImageResource(R.drawable.ic_done);
             holder.txtTitle.setPaintFlags(holder.txtTitle.getPaintFlags() &
                     (~ Paint.STRIKE_THRU_TEXT_FLAG));
         }
